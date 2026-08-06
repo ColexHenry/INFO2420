@@ -1,0 +1,129 @@
+/* My Style Sheet */
+
+/* About Us & Tributes */
+p,ol,ul {
+    color: white;
+    display: inline;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #1144AA;
+}
+
+a:link {
+    color: #FFA700;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: #1144AA;
+}
+
+.imageformattingleft {
+    float: left;
+    padding-left: 5px;
+    padding-right: 25px;
+}
+
+.imageformattingright {
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Table Styles */
+.captionstyle {
+    color: #1144AA; 
+    text-align: left; 
+    border-radius: 40%;
+    padding: 5px 2px;
+}
+
+.headerColor {
+    background-color: #cdcdcd;
+}
+
+
+
+table {
+    width: 100%;
+}
+
+
+tr, th, td {
+    color: #000;
+    border: 1px solid black;
+    padding: 5px 5px;
+    text-align: left;
+    font-size: 95%;
+    background-color: #E6F2FF;
+}
+
+
+/* New CSS for Home */
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Box 1 */
+.homepagebox {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.headerCheck {
+    background-color: #aaaaaa;
+    width: 900px;
+    height: 135px;
+    border: 5%;
+}
+
+nav {
+    width: 30%;
+	float: center;
+    display: inline;
+    font-weight: bold; 
+	font-size: 45px; 
+	text-decoration: none;
+}
+
+nav a {
+    float: center;
+    display: inline;
+	border: 2.5px inset #1144AA; 
+	background-color: #fff; 
+	line-height: 250%; 
+	color: #1144AA; 
+	font-weight: bold; 
+	font-size: 18px; 
+	text-decoration: none;
+}
+
+
+/* Box 2 */
+
+section {
+    width: 900px;
+    background-image: url('Images/2colback.jpg');
+    background-repeat: repeat-y;
+}
+
+article, p {
+    padding-bottom: 200px;
+    margin-top: -160px;
+    width: 800px;
+    text-align: right;
+}
+
+footer {
+    width: 900px;
+    background-color: #aaaaaa;
+}
